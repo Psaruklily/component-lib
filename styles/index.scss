@@ -1,0 +1,17 @@
+@import './variables';
+
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: $default-letter-spacing;
+    font-size: $font-size-m;
+    color: $black;
+    background-color: $white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+  
